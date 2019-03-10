@@ -1,0 +1,13 @@
+citHeader("To cite the '$PACKAGE$' R package and methods paper in publications use:")
+
+citEntry(entry = "Manual",
+         title        = "{$PACKAGE$: Your title}",
+         author       = personList(
+                                   as.person("First1  Last1"),
+                                   as.person("First2  Last2")
+                                  ),
+         year         = 2019,
+         textVersion  = paste("Last1, FirstInitial1 and Last2, FirstInitial2 (2019).",
+                              "$PACKAGE$: Your title",
+                              "URL https://cran.r-project.org/package=$PACKAGE$.")
+)

@@ -1,0 +1,25 @@
+Package: tmsapkg
+Title: Your Title Here
+Version: 0.0.0.9000
+Authors@R: c(
+    person("First", "Last", 
+           email = "NetID@illinois.edu", 
+           role = c("aut", "cre", "cph"), 
+           comment = c(ORCID = "10110101")),
+    person("First2", "Last3", 
+           email = "NetID@illinois.edu", 
+           role = c("aut", "cph"), 
+           comment = c(ORCID = "0189"))
+    )
+Description: Brief description...
+Depends: R (>= 3.4.0)
+License: GPL (>= 2)
+URL: https://github.com/tmsalab/$PACKAGE$
+BugReports: https://github.com/tmsalab/$PACKAGE$/issues
+LazyData: true
+Suggests: 
+    covr,
+    testthat
+RoxygenNote: 6.1.1
+Roxygen: list(markdown = TRUE)
+Encoding: UTF-8
